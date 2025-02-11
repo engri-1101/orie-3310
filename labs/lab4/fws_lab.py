@@ -5,7 +5,6 @@ import math, itertools
 import matplotlib.pyplot as plt
 import networkx as nx
 from networkx.algorithms import bipartite
-from ortools.linear_solver import pywraplp as OR
 
 def ex0(data):
     STUDENTS = list(data.index)
